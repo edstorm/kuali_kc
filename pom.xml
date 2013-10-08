@@ -486,12 +486,6 @@
 				<version>${jetty.version}</version>
 				<dependencies>
 	                <dependency>
-	                    <groupId>com.oracle</groupId>
-	                    <artifactId>ojdbc6</artifactId>
-	                    <version>${oracle.version}</version>
-	                    <scope>runtime</scope>
-	                </dependency>
-	                <dependency>
 	                    <groupId>mysql</groupId>
 	                    <artifactId>mysql-connector-java</artifactId>
 	                    <version>${mysql.version}</version>
@@ -505,12 +499,6 @@
                 <!-- tomcat 6.0.26 -->
                 <version>1.0</version>
                 <dependencies>  
-                    <dependency>
-                        <groupId>com.oracle</groupId>
-                        <artifactId>ojdbc6</artifactId>
-                        <version>${oracle.version}</version>
-                        <scope>runtime</scope>
-                    </dependency>
                     <dependency>
                         <groupId>mysql</groupId>
                         <artifactId>mysql-connector-java</artifactId>
@@ -550,13 +538,6 @@
 		    <groupId>cglib</groupId>
 		    <artifactId>cglib-nodep</artifactId>
 		    <version>2.2.2</version>
-		</dependency>
-		<dependency>
-		    <groupId>com.oracle</groupId>
-		    <artifactId>ojdbc6</artifactId>
-		    <version>${oracle.version}</version>
-		    <!-- should be provided once embedded jetty is figured out -->
-		    <scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.birt.runtime.3_7_1</groupId>
@@ -1087,14 +1068,6 @@
 			<artifactId>rice-impl</artifactId>
 			<version>${rice.version}</version>
 			<exclusions>
-				<exclusion>
-					<groupId>com.oracle</groupId>
-					<artifactId>ojdbc14</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>com.oracle</groupId>
-					<artifactId>ojdbc6</artifactId>
-				</exclusion>
 				<exclusion>
 					<groupId>htmlunit</groupId>
 					<artifactId>htmlunit</artifactId>
