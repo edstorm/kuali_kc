@@ -20,9 +20,12 @@
 
 <div class="navbar main-navbar navbar-static-top">
   <div class="navbar-inner">
-    <div class="container-fluid">
-      <ul class="nav">
-        <a class="brand" href="${ConfigProperties.application.url}/portal.do">Kuali Coeus</a>
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="${ConfigProperties.application.url}/portal.do">Kuali Coeus</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
 	<%-- Researcher Menu --%>
 	<c:if test='${selectedTab == "portalResearcherBody"}'>
         <li class="active"><a href="portal.do?selectedTab=portalResearcherBody" title="Researcher">Researcher</a></li>
@@ -71,15 +74,17 @@
         <li class="feedback right-nav">
           <a class="portal_link" href="<bean:message key="app.feedback.link"/>" target="_blank" title="<bean:message key="app.feedback.linkText" />"><bean:message key="app.feedback.linkText" /></a>
         </li>
-      </ul>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="navbar subnavbar">
   <div class="navbar-inner">
-    <div class="container-fluid">
-      <ul class="nav">
+    <div class="container">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
         <li class="first user right-nav">
           <c:set var="invalidUserMsg" value="Invalid username"/>
           <c:choose>
@@ -106,7 +111,8 @@
             Action List
           </portal:portalLink>
         </li>
-	</ul>
-</div>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>

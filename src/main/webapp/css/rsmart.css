@@ -46,6 +46,11 @@ h1,h2,h3,h4,h5,h6 {
   float: right;
 }
 
+.main-navbar {
+  margin-bottom: 0px;
+  border: 0px;
+}
+
 .main-navbar .nav > li > a, .main-navbar .brand {
   color: #FCFCFC;
   text-shadow: 0 1px 0 #333;
@@ -234,8 +239,6 @@ td.infoline  {
   border: 1px solid #DDD;
   padding: 5px;
 }
-
-form-table
 
 #row th.sortable,
 table #row th.sortable,
