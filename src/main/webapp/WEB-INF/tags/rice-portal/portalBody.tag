@@ -29,7 +29,7 @@
 	  </div>
   </c:when>
   <c:otherwise>
-  <div class="container">
+  <div class="container-fluid body-container">
 	<table border="0" width="100%"  cellspacing="0" cellpadding="0" id="iframe_portlet_container_table">
 	   	<tr valign="top" bgcolor="#FFFFFF">
       		<td width="15" class="leftback-focus">&nbsp;</td>
@@ -83,12 +83,12 @@
       <c:if test="${backboorEnabled}">
         <html:form action="/backdoorlogin.do" method="post" style="margin:0; display:inline">
           <input name="backdoorId" type="text" class="searchbox" size="10" title="Enter your backdoor ID here.">
-          <button type="submit" value="Login" class="btn btn-default btn-xs" title="Click to login.">Login</button>
+          <button type="submit" value="Login" class="btn btn-mini" title="Click to login.">Login</button>
           <input name="methodToCall" type="hidden" value="login" />
         </html:form>
       </c:if>
       <html:form action="/backdoorlogin.do" method="post" style="margin:0; display:inline">
-        <button name="imageField" type="submit" value="Logout" class="btn btn-default btn-xs">Logout</button>
+        <button name="imageField" type="submit" value="Logout" class="btn btn-mini">Logout</button>
         <input name="methodToCall" type="hidden" value="logout" />
       </html:form>
     </c:otherwise>
