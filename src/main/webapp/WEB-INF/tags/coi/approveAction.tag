@@ -30,9 +30,9 @@
  		</h3>
 	    <c:if test="${disclosureHelper.unresolvedEventsPresent}">
 	        <c:set var="readOnlyApprove" value="true" />
-  		    <div class="body" style="text-align:left;color:#FF0000;">			
-               <strong>${disclosureHelper.annualCertApprovalErrorMsgForAdmin}</strong>
-  		    </div>
+            <div class="alert alert-error">
+                ${disclosureHelper.annualCertApprovalErrorMsgForAdmin}
+            </div>
 		</c:if>
 		<h4><div class="body">Disclosure Status is set to '<c:out value="${KualiForm.disclosureActionHelper.maximumDispositionStatus.description}"/>' based on the Project-Financial Entity conflict status.</div></h4>
 		<div style="text-align: center;" class="coiActionButtons">
