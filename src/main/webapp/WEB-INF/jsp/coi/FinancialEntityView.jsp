@@ -10,7 +10,8 @@
 <script>var jsContextPath = "${pageContext.request.contextPath}";</script>
 <title><bean:message key="app.title" /> :: $(headerTitle})</title>
 <!-- TODO: We need this jquery implicit include because we do not use the documentPage or page tag. Ideally that is what should be used. -->
-<script type="text/javascript" src="krad/plugins/jquery/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="krad/plugins/jquery/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="krad/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="scripts/jquery/jquery.tablesorter.js"></script>
 <link type="text/css" rel="stylesheet" href="krad/plugins/fancybox/jquery.fancybox-1.3.4.css"></link>
 <script type="text/javascript" src="krad/plugins/fancybox/jquery.fancybox-1.3.4.pack.js"></script>     
