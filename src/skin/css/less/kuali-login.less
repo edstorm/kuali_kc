@@ -1,0 +1,70 @@
+table#login {
+  width:300px;
+  height:340px;
+  background:@white;
+  margin:130px auto;
+  position:relative;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.08) inset;
+  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.08) inset;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.08) inset;
+  td#buttonRow {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    input.btn.btn-primary.login-button {
+      margin-left: -81px;
+    }
+  }
+  td {
+    padding: .2em;
+    height: 20px;
+  }
+  .leftTd {
+    padding-left: 1.2em;
+  }
+  th:before {
+    content:@logoLogin;
+    position:absolute;
+    top: -5px;
+    left: 10px;
+  }
+  .rightTd {
+    padding-right: 1.2em;
+    input {
+      height: 30px;
+    }
+  }
+  th {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    font-size: 2em;
+    text-align: left;
+  }
+}
+table#login:before, table#login:after {
+  content:"";
+  position:absolute;
+  z-index:-1;
+  -webkit-box-shadow:0 0 20px rgba(0,0,0,0.5);
+  -moz-box-shadow:0 0 20px rgba(0,0,0,0.5);
+  box-shadow:0 0 20px rgba(0,0,0,0.5);
+  top:50%;
+  bottom:0;
+  left:20px;
+  right:20px;
+  -moz-border-radius:100px / 10px;
+  border-radius:100px / 10px;
+}
+
+div.build {
+  color: #dfdda9;
+  margin: .3em;
+  position: absolute;
+  top: 360px;
+  text-align: center;
+  color: @grayLight;
+  width: 100%;
+  font-size: 11px;
+}
+

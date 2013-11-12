@@ -1,0 +1,39 @@
+.navbar.subnavbar .nav &>li &>a, .navbar.subnavbar .nav .user {
+  padding-top: 3px;
+  padding-right: 6px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  color: @gray;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #fff;
+  -webkit-box-shadow: 1px 0px 0px 0px #cccccc;
+  box-shadow: 1px 0px 0px 0px #cccccc;
+  text-shadow: none;
+  font-size: 12px;
+}
+.navbar.subnavbar {
+  margin-bottom: 0px;
+  .navbar-inner {
+    border: 1px solid @subnavbarBorder;
+    padding-left:  20px;
+    padding-right: 20px;
+    #gradient > .vertical(@subnavbarBackgroundHighlight, @subnavbarBackground);
+    .border-radius(0px);
+    -webkit-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.07);
+    // Prevent floats from breaking the navbar.clearfix();
+    min-height: 10px;
+  }
+}
+.navbar.subnavbar .nav &>li &>a:hover, .navbar.subnavbar .nav &>li &>a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+.navbar {
+  .nav {
+    float: none;
+    .right-nav {
+      float: right;
+    }
+  }
+}

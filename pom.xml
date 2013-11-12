@@ -1091,10 +1091,6 @@
 			<version>${rice.version}</version>
 			<exclusions>
 				<exclusion>
-					<groupId>com.oracle</groupId>
-					<artifactId>ojdbc14</artifactId>
-				</exclusion>
-				<exclusion>
 					<groupId>htmlunit</groupId>
 					<artifactId>htmlunit</artifactId>
 				</exclusion>

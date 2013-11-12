@@ -20,9 +20,9 @@
 <c:set var="cmotd" value="<%= (org.kuali.kra.infrastructure.KraServiceLocator.getService(org.kuali.kra.coi.service.CoiMessagesService.class)).getMessages() %>" scope="page"/>
 <c:if test="${!empty pageScope.cmotd}">
 	<c:forEach items = "${pageScope.cmotd}" var = "msg">
-		<div class="body" style="text-align:left;color:#FF0000;">			
-        	<strong><c:out value="${msg}" /></strong>
-        </div>
+    <div class="alert alert-error">
+      <c:out value="${msg}" />
+    </div>
    </c:forEach>
 </c:if>
   <strong>My Financial Entities </strong>
