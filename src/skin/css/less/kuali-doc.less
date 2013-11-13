@@ -1,7 +1,14 @@
 body[onLoad] { background: @white}
 
+#specialReviewTableId input[type="text"],
+input[name*="newBudgetPeriod"],
+input[name*="document.budget.budgetPeriods"],
+input[name*="specialReviewHelper"],
+input[name*="document.developmentProposalList"]
 
-
+{
+  width: inherit;
+}
 
 /* Forms with tabs */
 #kualiForm {
@@ -11,6 +18,7 @@ body[onLoad] { background: @white}
 #workarea td.tabtable1-right,
 #workarea td.tabtable1-mid,
 #workarea td.tabtable1-left,
+#workarea td.tabtable1-left-colspan,
 #workarea td.tabtable2-right,
 #workarea td.tabtable2-mid,
 #workarea td.tabtable2-left,
@@ -70,6 +78,7 @@ tbody.over td {
 
 #workarea td.tabtable1-right img,
 #workarea td.tabtable1-left img,
+#workarea td.tabtable1-left-colspan img,
 #workarea td.tabtable2-right img,
 #workarea td.footer-right img,
 #workarea td.footer img,
@@ -418,7 +427,7 @@ font-size:30px ;
 
 
 #workarea .tab-container h3 {
-  position: relative;
+  //position: relative;
 }
 
 
