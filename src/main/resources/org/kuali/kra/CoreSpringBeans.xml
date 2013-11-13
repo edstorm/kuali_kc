@@ -64,7 +64,7 @@
             <list>
                 <value>org/kuali/kra/datadictionary</value>
                 <value>org/kuali/kra/datadictionary/docs</value>
-                <value>org/kuali/kra/custom/datadictionary</value>
+                <!-- <value>org/kuali/kra/custom/datadictionary</value> -->
                 <!-- <value>${kc.additional.datadictionary.location}</value> -->
             </list>
         </property>
