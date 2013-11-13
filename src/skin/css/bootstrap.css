@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 /*!
  * Bootstrap v2.3.2
  *
@@ -6964,6 +6964,13 @@ div.build {
 body[onLoad] {
   background: #ffffff;
 }
+#specialReviewTableId input[type="text"],
+input[name*="newBudgetPeriod"],
+input[name*="document.budget.budgetPeriods"],
+input[name*="specialReviewHelper"],
+input[name*="document.developmentProposalList"] {
+  width: inherit;
+}
 /* Forms with tabs */
 #kualiForm {
   background-color: #FFF;
@@ -6971,6 +6978,7 @@ body[onLoad] {
 #workarea td.tabtable1-right,
 #workarea td.tabtable1-mid,
 #workarea td.tabtable1-left,
+#workarea td.tabtable1-left-colspan,
 #workarea td.tabtable2-right,
 #workarea td.tabtable2-mid,
 #workarea td.tabtable2-left,
@@ -7024,6 +7032,7 @@ tbody.over td {
 }
 #workarea td.tabtable1-right img,
 #workarea td.tabtable1-left img,
+#workarea td.tabtable1-left-colspan img,
 #workarea td.tabtable2-right img,
 #workarea td.footer-right img,
 #workarea td.footer img,
@@ -7296,9 +7305,6 @@ td.infoline {
 #workarea .tab > input {
   width: 16px;
   height: 16px;
-}
-#workarea .tab-container h3 {
-  position: relative;
 }
 #workarea .tab-container h3 .subhead-left {
   font-size: 24px;

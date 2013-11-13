@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 /*!
  * Bootstrap v2.3.2
  *
@@ -86,12 +86,16 @@ sub {
 }
 img {
   /* Responsive images (ensure images don't scale beyond their parents) */
+
   max-width: 100%;
   /* Part 1: Set a maxium relative to the parent */
+
   width: auto\9;
   /* IE7-8 need help adjusting responsive images */
+
   height: auto;
   /* Part 2: Scale the height according to the width, otherwise you get stretching */
+
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -186,7 +190,7 @@ textarea {
   img {
     max-width: 100% !important;
   }
-  @page {
+  @page  {
     margin: 0.5cm;
   }
   p,
@@ -699,6 +703,7 @@ ol.inline > li {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
+
   *zoom: 1;
   padding-left: 5px;
   padding-right: 5px;
@@ -977,6 +982,7 @@ input[type="color"]:focus,
   outline: 0;
   outline: thin dotted \9;
   /* IE6-9 */
+
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
   -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
@@ -986,8 +992,10 @@ input[type="checkbox"] {
   margin: 4px 0 0;
   *margin-top: 0;
   /* IE7 */
+
   margin-top: 1px \9;
   /* IE8-9 */
+
   line-height: normal;
 }
 input[type="file"],
@@ -1003,8 +1011,10 @@ select,
 input[type="file"] {
   height: 30px;
   /* In IE7, the height of the select element cannot be changed by height, only font-size */
+
   *margin-top: 4px;
   /* For IE7, add top margin to align select with labels */
+
   line-height: 30px;
 }
 select {
@@ -1402,6 +1412,7 @@ select:focus:invalid:focus {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
+
   *zoom: 1;
   vertical-align: middle;
   padding-left: 5px;
@@ -1552,6 +1563,7 @@ input.search-query {
   padding-left: 14px;
   padding-left: 4px \9;
   /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
   margin-bottom: 0;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -1608,6 +1620,7 @@ input.search-query {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
+
   *zoom: 1;
   margin-bottom: 0;
   vertical-align: middle;
@@ -2673,6 +2686,7 @@ button.close {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
+
   *zoom: 1;
   padding: 4px 12px;
   margin-bottom: 0;
@@ -2695,6 +2709,7 @@ button.close {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #e6e6e6;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   border: 1px solid #cccccc;
   *border: 0;
@@ -2830,6 +2845,7 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #77002b;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-primary:hover,
@@ -2861,6 +2877,7 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #f89406;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-warning:hover,
@@ -2892,6 +2909,7 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #bd362f;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-danger:hover,
@@ -2923,6 +2941,7 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #51a351;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-success:hover,
@@ -2954,6 +2973,7 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #2f96b4;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-info:hover,
@@ -2985,6 +3005,7 @@ input[type="button"].btn-block {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #222222;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-inverse:hover,
@@ -3059,6 +3080,7 @@ input[type="submit"].btn.btn-mini {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
+
   *zoom: 1;
   font-size: 0;
   vertical-align: middle;
@@ -3234,6 +3256,7 @@ input[type="submit"].btn.btn-mini {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
+
   *zoom: 1;
 }
 .btn-group-vertical > .btn {
@@ -3923,6 +3946,7 @@ input[type="submit"].btn.btn-mini {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #77002b;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
   -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
@@ -4156,6 +4180,7 @@ input[type="submit"].btn.btn-mini {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #040404;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .navbar-inverse .btn-navbar:hover,
@@ -4185,6 +4210,7 @@ input[type="submit"].btn.btn-mini {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
+
   *zoom: 1;
   text-shadow: 0 1px 0 #ffffff;
 }
@@ -4202,6 +4228,7 @@ input[type="submit"].btn.btn-mini {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
+
   *zoom: 1;
   margin-left: 0;
   margin-bottom: 0;
@@ -4402,6 +4429,7 @@ input[type="submit"].btn.btn-mini {
   border: 1px solid rgba(0, 0, 0, 0.3);
   *border: 1px solid #999;
   /* IE6-7 */
+
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -6912,6 +6940,7 @@ div.build {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #77002b;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 #footer-copyright .btn.btn-mini:hover,
@@ -6935,181 +6964,9 @@ div.build {
 body[onLoad] {
   background: #ffffff;
 }
-#specialReviewTableId input[type="text"],
-input[name*="newBudgetPeriod"],
-input[name*="document.budget.budgetPeriods"],
-input[name*="specialReviewHelper"],
-input[name*="document.developmentProposalList"] {
-  width: inherit;
-}
-/* Forms with tabs */
-#kualiForm {
-  background-color: #FFF;
-}
-#workarea td.tabtable1-right,
-#workarea td.tabtable1-mid,
-#workarea td.tabtable1-left,
-#workarea td.tabtable1-left-colspan,
-#workarea td.tabtable2-right,
-#workarea td.tabtable2-mid,
-#workarea td.tabtable2-left,
-#workarea td.footer-right,
-#workarea td.footer,
-#workarea div.tab-container,
-#workarea th,
-#workarea td,
-#workarea table,
-#workarea td.infoline,
-#tabs dt,
-#tabs .tabright,
-.horz-links-bkgrnd,
-#tabs dt.licurrent,
-td.annotate-t,
-td.annotate-b,
-div.annotate-container,
-#workarea td.tabtable1-mid1,
-table.grid,
-div.innerTab-container,
-span.subhead-right,
-.t3,
-.tr3,
-.tl3 {
-  background: none;
-  border: none;
-  background-color: transparent;
-}
-#workarea th,
-#workarea td,
-#workarea table,
-#workarea td.infoline,
-#workarea div.tab-container h3,
-th.grid,
-td.grid,
-td.infoline {
-  border: 1px solid #DDD;
-  padding: 5px;
-}
-form-table #row th.sortable,
-table #row th.sortable,
-#row th {
-  background: none;
-}
-#row tr.actionlist_anyRow:hover,
-#row tr.over,
-#row tr.odd:hover,
-#row tr.even:hover,
-tbody.over td {
-  background-color: #EBE2D9;
-}
-#workarea td.tabtable1-right img,
-#workarea td.tabtable1-left img,
-#workarea td.tabtable1-left-colspan img,
-#workarea td.tabtable2-right img,
-#workarea td.footer-right img,
-#workarea td.footer img,
-td.annotate-t img,
-td.annotate-b img {
-  display: none;
-}
-#workarea div.tab-container h3 {
-  line-height: 18px;
-  font-size: 14px;
-  color: #333;
-  background-color: transparent;
-  border-bottom: none;
-}
-span.subhead-left {
-  color: #333;
-}
-#workarea .tab tr {
-  border-bottom: 1px solid #333;
-}
-#tabs .licurrent input,
-#tabs .licurrent input:hover,
-#tabs .licurrent input:focus {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-color: #FFFFFF;
-  border-color: #DDDDDD #DDDDDD transparent;
-  border-image: none;
-  border-style: solid;
-  border-width: 1px;
-  color: #555555;
-  cursor: default;
-}
-#tabs dt input {
-  border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
-  line-height: 20px;
-  padding-bottom: 8px;
-  padding-top: 8px;
-  margin-right: 2px;
-  padding-left: 12px;
-  padding-right: 12px;
-  color: #0088CC;
-}
-#tabs dt input:hover,
-#tabs dt input:focus {
-  border-color: #EEEEEE #EEEEEE #DDDDDD;
-  background: none;
-  background-color: #EEEEEE;
-  color: #0088CC;
-  font-weight: normal;
-}
-#tabs input {
-  height: 36px;
-  font-weight: normal;
-}
-#tabs {
-  border-bottom: 1px solid #DDDDDD;
-  height: 35px;
-}
-#workarea div.tab-container-error {
-  background: none;
-  border: none;
-}
-div.innerTab-head {
-  height: 24px;
-  border: none;
-  background-color: #EFEFEF;
-  color: #333;
-}
-input[type=text] {
-  height: 26px;
-}
-input[type=text],
-textarea,
-select,
-input[type="file"] {
-  margin-bottom: 0;
-}
-#tabs input {
-  font-size: 14px;
-}
-div.msg-excol {
-  float: left;
-}
-form {
-  margin: 0;
-}
-th.grid,
-td.grid,
-td.infoline {
-  background: none;
-  border: none;
-}
-td.infoline {
-  text-align: left;
-  padding-left: 25%;
-  padding-top: 20px;
-}
 #headerarea-small h1,
 #headerarea h1 {
-  font-size: 30px ;
-  font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 28px ;
 }
 .headerarea,
 .headerarea-small {
@@ -7122,6 +6979,7 @@ td.infoline {
 .headerarea {
   height: 72px;
   padding-bottom: 20px;
+  background: red;
 }
 #headerarea table {
   height: inherit;
@@ -7226,33 +7084,13 @@ td.infoline {
 .excol {
   color: #999999;
 }
-#workarea > table.tab {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  border-collapse: separate !important;
-  padding: 0px;
-  padding-left: 20px;
+#workarea .tab {
+  background: #efefef;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 5px;
 }
-#workarea > table.tab blockquote {
-  border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0.15);
-}
-#workarea > table.tab input[type="radio"],
-input[type="checkbox"] {
-  margin: 0px;
-  margin-top: 0px \9;
-  line-height: normal;
-}
-#workarea > .tab tr {
+#workarea .tab tr {
   border-bottom: none;
 }
 #workarea th,
@@ -7263,125 +7101,27 @@ input[type="checkbox"] {
 th.grid,
 td.grid,
 td.infoline {
-  border: 1px solid transparent;
+  border: 1px solid #fff;
   padding: 2px;
 }
 #workarea .tab {
   position: relative;
   margin-bottom: 12px;
 }
-#workarea .tab tbody tr h2 {
-  margin-left: 0px;
+#workarea .tab tbody tr input {
+  position: absolute;
+  left: 12px;
+  top: 12px;
 }
-#workarea .tab > input {
+#workarea .tab tbody tr h2 {
+  margin-left: 30px;
+}
+#workarea .tab input {
   width: 16px;
   height: 16px;
 }
 #workarea .tab-container h3 .subhead-left {
-  font-size: 24px;
-  font-weight: normal;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: #999999;
-  width: 100%;
-  padding-bottom: 12px;
-}
-#workarea .tab-container h3 .subhead-right {
-  position: ;
-  margin-top: -25px;
-  padding-right: 12px;
-  right: 22px;
-  float: right;
-}
-#workarea .tab-container table {
-  background: ;
-  width: 100%;
-  float: left;
-  margin-bottom: 20px;
-}
-#workarea .tab-container table td,
-#workarea .tab-container table th {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #efefef;
-  padding: 4px;
-}
-.form-table tr[align="center"] td {
-  text-align: center;
-}
-.form-table th {
-  text-align: right;
-  font-weight: bold;
-}
-.headerarea-small {
-  height: 60px;
-}
-#workarea .innerTab-head {
-  background-color: #f5f5f5;
   font-size: 18px;
-  font-weight: normal;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  margin-bottom: 12px;
-  margin-top: 12px;
-}
-#workarea td.tab-subhead {
-  font-weight: bold;
-  background-color: #f5f5f5;
-  padding: 2px;
-  height: 18px;
-  text-align: left;
-}
-#workarea td.tab-subhead {
-  border-left: none;
-}
-#addPersonDiv {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-#addPersonDiv blockquote {
-  border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0.15);
-}
-#addPersonDiv .addline .annotate-container div .grid {
-  width: inherit;
-}
-#addPersonDiv .addline .annotate-container div .grid tbody tr .grid {
-  border: none;
-  padding-right: 20px;
-}
-#addPersonDiv .addline .annotate-container div .grid tbody tr .grid label {
-  float: left;
-  display: inline;
-}
-#addPersonDiv .addline .annotate-container div .grid tbody tr .grid label + label + label + label {
-  float: right;
-}
-#addPersonDiv .addline .annotate-container div .grid tbody tr .grid label + label + br + label {
-  float: left;
-  padding-right: 12px;
-}
-#addPersonDiv .addline .annotate-container div .grid tbody tr .grid label + label {
-  float: right;
-}
-#addPersonDiv .addline .annotate-top tbody tr .annotate-t {
-  font-size: 24px;
-  font-weight: normal;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: #999999;
-  width: 100%;
-  padding-bottom: 12px;
 }
 .pull-right {
   float: right;
