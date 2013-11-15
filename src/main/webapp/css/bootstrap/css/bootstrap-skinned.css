@@ -3711,10 +3711,10 @@ input[type="submit"].btn.btn-mini {
   overflow: visible;
 }
 .navbar .brand {
-  background-image: url('../img/logo.png');
+  background-image: url('../img/rsmart-logo.png');
   position: absolute;
   display: block;
-  height: 69px;
+  height: 46px;
   width: 200px;
   line-height: 0;
   font-size: 0;
@@ -6760,7 +6760,7 @@ table#login .leftTd {
   padding-left: 1.2em;
 }
 table#login th:before {
-  content: url('../img/logo-login.png');
+  content: url('../img/rsmart-logo-login.png');
   position: absolute;
   top: -5px;
   left: 10px;
@@ -6871,7 +6871,7 @@ div.build {
 }
 #footer-copyright {
   background-color: #11424f;
-  background-image: url('../img/logo-watermark.png');
+  background-image: url('../img/rsmart-logo-watermark.png');
   background-position: 20px center;
   background-size: 40px 40px;
   background-repeat: no-repeat;
