@@ -6,6 +6,13 @@
 // Global values
 // --------------------------------------------------
 
+// Brand primary color
+@brandPrimaryColor:    #11424f;
+
+
+
+
+
 // Grays
 // -------------------------
 @black:                 #000;
@@ -16,17 +23,19 @@
 @grayLighter:           #eee;
 @white:                 #fff;
 
-// Brand primary color
-@brandPrimaryColor:      #11424f;
 
-// Accent colors
+
+
+  // Accent colors
 // -------------------------
-@blue:                  #049cdb;
-@blueDark:              #0064cd;
-@green:                 #46a546;
+@blue:                  #11424f;
+@blueDark:              #10323d;
+@blueLight:             #e2f3f7;
+@green:                 #a0b037;
 @red:                   #9d261d;
 @yellow:                #ffc40d;
-@orange:                #f89406;
+@tan:                   #e7dcd0;
+@orange:                #f28c37;
 @pink:                  #c3325f;
 @purple:                #7a43b6;
 
@@ -45,11 +54,11 @@
 
 // Brand logos
 // -------------------------
-@logoLogin:             url('../img/rsmart-logo-login.png');
-@logoMain:              url('../img/rsmart-logo.png');
-@logoMainHeight:        46px;
+@logoLogin:             url('../img/logo-login.png');
+@logoMain:              url('../img/logo.png');
+@logoMainHeight:        57px;
 @logoMainWidth:         200px;
-@logoWatermark:         url('../img/rsmart-logo-watermark.png');
+@logoWatermark:         url('../img/logo-watermark.png');
 
 // Typography
 // -------------------------
@@ -101,7 +110,7 @@
 @btnBorder:                         #ccc;
 
 @btnPrimaryBackground:              @brandPrimaryColor;
-@btnPrimaryBackgroundHighlight:     lighten(@brandPrimaryColor, 10%);
+@btnPrimaryBackgroundHighlight:     darken(@brandPrimaryColor, 10%);
 
 @btnInfoBackground:                 #5bc0de;
 @btnInfoBackgroundHighlight:        #2f96b4;
@@ -192,9 +201,9 @@
 @navbarCollapseWidth:             979px;
 @navbarCollapseDesktopWidth:      @navbarCollapseWidth + 1;
 
-@navbarHeight:                    50px;
+@navbarHeight:                    46px;
 @navbarBackgroundHighlight:       @brandPrimaryColor;
-@navbarBackground:                lighten(@navbarBackgroundHighlight, 10%);
+@navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
 @navbarBorder:                    darken(@navbarBackground, 12%);
 
 @navbarText:                      #777;
@@ -213,14 +222,14 @@
 @subnavbarCollapseDesktopWidth:      @subnavbarCollapseWidth + 1;
 
 @subnavbarHeight:                    30px;
-@subnavbarBackgroundHighlight:       @white;
-@subnavbarBackground:                @grayLighter;
+@subnavbarBackgroundHighlight:       lighten(@subnavbarBackground, 12%);
+@subnavbarBackground:                @green;
 @subnavbarBorder:                    darken(@subnavbarBackground, 12%);
 
-@subnavbarText:                      #777;
-@subnavbarLinkColor:                 #777;
-@subnavbarLinkColorHover:            @grayDark;
-@subnavbarLinkColorActive:           @gray;
+@subnavbarText:                      @black;
+@subnavbarLinkColor:                 @black;
+@subnavbarLinkColorHover:            @black;
+@subnavbarLinkColorActive:           @black;
 @subnavbarLinkBackgroundHover:       transparent;
 @subnavbarLinkBackgroundActive:      darken(@subnavbarBackground, 5%);
 
