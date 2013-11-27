@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 /*!
  * Bootstrap v2.3.2
  *
@@ -210,7 +210,7 @@ body {
   font-size: 12px;
   line-height: 20px;
   color: #333333;
-  background-color: #aa003e;
+  background-color: #2587a9;
 }
 a {
   color: #0088cc;
@@ -1743,7 +1743,7 @@ table {
   border-top: 2px solid #dddddd;
 }
 .table .table {
-  background-color: #aa003e;
+  background-color: #2587a9;
 }
 .table-condensed th,
 .table-condensed td {
@@ -2833,17 +2833,17 @@ input[type="button"].btn-block {
 .btn-primary {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #960037;
-  background-image: -moz-linear-gradient(top, #aa003e, #77002b);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aa003e), to(#77002b));
-  background-image: -webkit-linear-gradient(top, #aa003e, #77002b);
-  background-image: -o-linear-gradient(top, #aa003e, #77002b);
-  background-image: linear-gradient(to bottom, #aa003e, #77002b);
+  background-color: #217a98;
+  background-image: -moz-linear-gradient(top, #2587a9, #1c667f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2587a9), to(#1c667f));
+  background-image: -webkit-linear-gradient(top, #2587a9, #1c667f);
+  background-image: -o-linear-gradient(top, #2587a9, #1c667f);
+  background-image: linear-gradient(to bottom, #2587a9, #1c667f);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffaa003e', endColorstr='#ff77002b', GradientType=0);
-  border-color: #77002b #77002b #2a0010;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2587a9', endColorstr='#ff1c667f', GradientType=0);
+  border-color: #1c667f #1c667f #0e3340;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #77002b;
+  *background-color: #1c667f;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -2855,12 +2855,12 @@ input[type="button"].btn-block {
 .btn-primary.disabled,
 .btn-primary[disabled] {
   color: #ffffff;
-  background-color: #77002b;
-  *background-color: #5d0022;
+  background-color: #1c667f;
+  *background-color: #17556a;
 }
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #440019 \9;
+  background-color: #134455 \9;
 }
 .btn-warning {
   color: #ffffff;
@@ -3207,7 +3207,7 @@ input[type="submit"].btn.btn-mini {
   background-color: #e6e6e6;
 }
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #77002b;
+  background-color: #1c667f;
 }
 .btn-group.open .btn-warning.dropdown-toggle {
   background-color: #f89406;
@@ -3467,7 +3467,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
   color: #555555;
-  background-color: #aa003e;
+  background-color: #2587a9;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -3705,10 +3705,8 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-inner {
   min-height: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background: #aa003e;
-  border: 1px solid #53001e;
+  background: #2587a9;
+  border: 1px solid #154e62;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -3758,8 +3756,8 @@ input[type="submit"].btn.btn-mini {
 .navbar .divider-vertical {
   height: 50px;
   margin: 0 9px;
-  border-left: 1px solid #910035;
-  border-right: 1px solid #aa003e;
+  border-left: 1px solid #207694;
+  border-right: 1px solid #2587a9;
 }
 .navbar .btn,
 .navbar .btn-group {
@@ -3901,7 +3899,7 @@ input[type="submit"].btn.btn-mini {
   padding: 15px 12px 15px;
   color: #eeeeee;
   text-decoration: none;
-  text-shadow: 0 1px 0 #aa003e;
+  text-shadow: 0 1px 0 #2587a9;
   font-size: 14px;
 }
 .navbar ul.nav a.brand + li {
@@ -3921,7 +3919,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #860031;
+  background-color: #1f708c;
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -3934,17 +3932,17 @@ input[type="submit"].btn.btn-mini {
   margin-right: 5px;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #860031;
-  background-image: -moz-linear-gradient(top, #910035, #77002b);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#910035), to(#77002b));
-  background-image: -webkit-linear-gradient(top, #910035, #77002b);
-  background-image: -o-linear-gradient(top, #910035, #77002b);
-  background-image: linear-gradient(to bottom, #910035, #77002b);
+  background-color: #1f708c;
+  background-image: -moz-linear-gradient(top, #207694, #1c667f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#207694), to(#1c667f));
+  background-image: -webkit-linear-gradient(top, #207694, #1c667f);
+  background-image: -o-linear-gradient(top, #207694, #1c667f);
+  background-image: linear-gradient(to bottom, #207694, #1c667f);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff910035', endColorstr='#ff77002b', GradientType=0);
-  border-color: #77002b #77002b #2b0010;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff207694', endColorstr='#ff1c667f', GradientType=0);
+  border-color: #1c667f #1c667f #0e3340;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #77002b;
+  *background-color: #1c667f;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -3959,12 +3957,12 @@ input[type="submit"].btn.btn-mini {
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled] {
   color: #ffffff;
-  background-color: #77002b;
-  *background-color: #5e0022;
+  background-color: #1c667f;
+  *background-color: #17556a;
 }
 .navbar .btn-navbar:active,
 .navbar .btn-navbar.active {
-  background-color: #440019 \9;
+  background-color: #134455 \9;
 }
 .navbar .btn-navbar .icon-bar {
   display: block;
@@ -4023,7 +4021,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: #860031;
+  background-color: #1f708c;
   color: #ffffff;
 }
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
@@ -6878,6 +6876,9 @@ div.build {
 .navbar .nav .right-nav {
   float: right;
 }
+#iframe_portlet_container_div {
+  padding: 0px;
+}
 .portlet .chan-contain .body ul.chan {
   padding: 0px;
 }
@@ -6898,7 +6899,7 @@ div.build {
   float: none;
 }
 #footer-copyright {
-  background-color: #aa003e;
+  background-color: #2587a9;
   background-image: url('../img/logo-watermark.png');
   background-position: 20px center;
   background-size: 40px 40px;
@@ -6923,22 +6924,22 @@ div.build {
   height: 12px;
   margin-top: 10px;
   width: 80px;
-  background: #ffdde9;
+  background: #ffffff;
 }
 #footer-copyright .btn.btn-mini {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #960037;
-  background-image: -moz-linear-gradient(top, #aa003e, #77002b);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aa003e), to(#77002b));
-  background-image: -webkit-linear-gradient(top, #aa003e, #77002b);
-  background-image: -o-linear-gradient(top, #aa003e, #77002b);
-  background-image: linear-gradient(to bottom, #aa003e, #77002b);
+  background-color: #217a98;
+  background-image: -moz-linear-gradient(top, #2587a9, #1c667f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2587a9), to(#1c667f));
+  background-image: -webkit-linear-gradient(top, #2587a9, #1c667f);
+  background-image: -o-linear-gradient(top, #2587a9, #1c667f);
+  background-image: linear-gradient(to bottom, #2587a9, #1c667f);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffaa003e', endColorstr='#ff77002b', GradientType=0);
-  border-color: #77002b #77002b #2a0010;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2587a9', endColorstr='#ff1c667f', GradientType=0);
+  border-color: #1c667f #1c667f #0e3340;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #77002b;
+  *background-color: #1c667f;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -6950,12 +6951,12 @@ div.build {
 #footer-copyright .btn.btn-mini.disabled,
 #footer-copyright .btn.btn-mini[disabled] {
   color: #ffffff;
-  background-color: #77002b;
-  *background-color: #5d0022;
+  background-color: #1c667f;
+  *background-color: #17556a;
 }
 #footer-copyright .btn.btn-mini:active,
 #footer-copyright .btn.btn-mini.active {
-  background-color: #440019 \9;
+  background-color: #134455 \9;
 }
 #footer-copyright .btn.btn-mini .caret {
   border-top-color: #ffffff;
@@ -6964,9 +6965,181 @@ div.build {
 body[onLoad] {
   background: #ffffff;
 }
+#specialReviewTableId input[type="text"],
+input[name*="newBudgetPeriod"],
+input[name*="document.budget.budgetPeriods"],
+input[name*="specialReviewHelper"],
+input[name*="document.developmentProposalList"] {
+  width: inherit;
+}
+/* Forms with tabs */
+#kualiForm {
+  background-color: #FFF;
+}
+#workarea td.tabtable1-right,
+#workarea td.tabtable1-mid,
+#workarea td.tabtable1-left,
+#workarea td.tabtable1-left-colspan,
+#workarea td.tabtable2-right,
+#workarea td.tabtable2-mid,
+#workarea td.tabtable2-left,
+#workarea td.footer-right,
+#workarea td.footer,
+#workarea div.tab-container,
+#workarea th,
+#workarea td,
+#workarea table,
+#workarea td.infoline,
+#tabs dt,
+#tabs .tabright,
+.horz-links-bkgrnd,
+#tabs dt.licurrent,
+td.annotate-t,
+td.annotate-b,
+div.annotate-container,
+#workarea td.tabtable1-mid1,
+table.grid,
+div.innerTab-container,
+span.subhead-right,
+.t3,
+.tr3,
+.tl3 {
+  background: none;
+  border: none;
+  background-color: transparent;
+}
+#workarea th,
+#workarea td,
+#workarea table,
+#workarea td.infoline,
+#workarea div.tab-container h3,
+th.grid,
+td.grid,
+td.infoline {
+  border: 1px solid #DDD;
+  padding: 5px;
+}
+form-table #row th.sortable,
+table #row th.sortable,
+#row th {
+  background: none;
+}
+#row tr.actionlist_anyRow:hover,
+#row tr.over,
+#row tr.odd:hover,
+#row tr.even:hover,
+tbody.over td {
+  background-color: #EBE2D9;
+}
+#workarea td.tabtable1-right img,
+#workarea td.tabtable1-left img,
+#workarea td.tabtable1-left-colspan img,
+#workarea td.tabtable2-right img,
+#workarea td.footer-right img,
+#workarea td.footer img,
+td.annotate-t img,
+td.annotate-b img {
+  display: none;
+}
+#workarea div.tab-container h3 {
+  line-height: 18px;
+  font-size: 14px;
+  color: #333;
+  background-color: transparent;
+  border-bottom: none;
+}
+span.subhead-left {
+  color: #333;
+}
+#workarea .tab tr {
+  border-bottom: 1px solid #333;
+}
+#tabs .licurrent input,
+#tabs .licurrent input:hover,
+#tabs .licurrent input:focus {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #FFFFFF;
+  border-color: #DDDDDD #DDDDDD transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: #555555;
+  cursor: default;
+}
+#tabs dt input {
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  line-height: 20px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-right: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #0088CC;
+}
+#tabs dt input:hover,
+#tabs dt input:focus {
+  border-color: #EEEEEE #EEEEEE #DDDDDD;
+  background: none;
+  background-color: #EEEEEE;
+  color: #0088CC;
+  font-weight: normal;
+}
+#tabs input {
+  height: 36px;
+  font-weight: normal;
+}
+#tabs {
+  border-bottom: 1px solid #DDDDDD;
+  height: 35px;
+}
+#workarea div.tab-container-error {
+  background: none;
+  border: none;
+}
+div.innerTab-head {
+  height: 24px;
+  border: none;
+  background-color: #EFEFEF;
+  color: #333;
+}
+input[type=text] {
+  height: 26px;
+}
+input[type=text],
+textarea,
+select,
+input[type="file"] {
+  margin-bottom: 0;
+}
+#tabs input {
+  font-size: 14px;
+}
+div.msg-excol {
+  float: left;
+}
+form {
+  margin: 0;
+}
+th.grid,
+td.grid,
+td.infoline {
+  background: none;
+  border: none;
+}
+td.infoline {
+  text-align: left;
+  padding-left: 25%;
+  padding-top: 20px;
+}
 #headerarea-small h1,
 #headerarea h1 {
-  font-size: 28px ;
+  font-size: 30px ;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
 }
 .headerarea,
 .headerarea-small {
@@ -6979,7 +7152,6 @@ body[onLoad] {
 .headerarea {
   height: 72px;
   padding-bottom: 20px;
-  background: red;
 }
 #headerarea table {
   height: inherit;
@@ -6999,7 +7171,7 @@ body[onLoad] {
   padding-bottom: 2px;
   border-top: none;
   border-right: none;
-  border-bottom: 1px solid #d0d0d0;
+  border-bottom: none;
   text-align: right;
   font-weight: normal;
   color: #555555;
@@ -7010,7 +7182,7 @@ body[onLoad] {
   padding-right: 6px;
   text-align: left;
   border-top: none;
-  border-bottom: 1px solid #d0d0d0;
+  border-bottom: none;
   border-right: none;
   color: #999999;
 }
@@ -7084,13 +7256,33 @@ body[onLoad] {
 .excol {
   color: #999999;
 }
-#workarea .tab {
-  background: #efefef;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  padding: 5px;
+#workarea > table.tab {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-collapse: separate !important;
+  padding: 0px;
+  padding-left: 20px;
 }
-#workarea .tab tr {
+#workarea > table.tab blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+#workarea > table.tab input[type="radio"],
+input[type="checkbox"] {
+  margin: 0px;
+  margin-top: 0px \9;
+  line-height: normal;
+}
+#workarea > .tab tr {
   border-bottom: none;
 }
 #workarea th,
@@ -7101,27 +7293,125 @@ body[onLoad] {
 th.grid,
 td.grid,
 td.infoline {
-  border: 1px solid #fff;
+  border: 1px solid transparent;
   padding: 2px;
 }
 #workarea .tab {
   position: relative;
   margin-bottom: 12px;
 }
-#workarea .tab tbody tr input {
-  position: absolute;
-  left: 12px;
-  top: 12px;
-}
 #workarea .tab tbody tr h2 {
-  margin-left: 30px;
+  margin-left: 0px;
 }
-#workarea .tab input {
+#workarea .tab > input {
   width: 16px;
   height: 16px;
 }
 #workarea .tab-container h3 .subhead-left {
+  font-size: 24px;
+  font-weight: normal;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #999999;
+  width: 100%;
+  padding-bottom: 12px;
+}
+#workarea .tab-container h3 .subhead-right {
+  position: ;
+  margin-top: -25px;
+  padding-right: 12px;
+  right: 22px;
+  float: right;
+}
+#workarea .tab-container table {
+  background: ;
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+#workarea .tab-container table td,
+#workarea .tab-container table th {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #efefef;
+  padding: 4px;
+}
+.form-table tr[align="center"] td {
+  text-align: center;
+}
+.form-table th {
+  text-align: right;
+  font-weight: bold;
+}
+.headerarea-small {
+  height: 60px;
+}
+#workarea .innerTab-head {
+  background-color: #f5f5f5;
   font-size: 18px;
+  font-weight: normal;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+#workarea td.tab-subhead {
+  font-weight: bold;
+  background-color: #f5f5f5;
+  padding: 2px;
+  height: 18px;
+  text-align: left;
+}
+#workarea td.tab-subhead {
+  border-left: none;
+}
+#addPersonDiv {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#addPersonDiv blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+#addPersonDiv .addline .annotate-container div .grid {
+  width: inherit;
+}
+#addPersonDiv .addline .annotate-container div .grid tbody tr .grid {
+  border: none;
+  padding-right: 20px;
+}
+#addPersonDiv .addline .annotate-container div .grid tbody tr .grid label {
+  float: left;
+  display: inline;
+}
+#addPersonDiv .addline .annotate-container div .grid tbody tr .grid label + label + label + label {
+  float: right;
+}
+#addPersonDiv .addline .annotate-container div .grid tbody tr .grid label + label + br + label {
+  float: left;
+  padding-right: 12px;
+}
+#addPersonDiv .addline .annotate-container div .grid tbody tr .grid label + label {
+  float: right;
+}
+#addPersonDiv .addline .annotate-top tbody tr .annotate-t {
+  font-size: 24px;
+  font-weight: normal;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #999999;
+  width: 100%;
+  padding-bottom: 12px;
 }
 .pull-right {
   float: right;
