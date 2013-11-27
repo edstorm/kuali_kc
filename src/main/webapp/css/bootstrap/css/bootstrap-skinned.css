@@ -3682,8 +3682,6 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-inner {
   min-height: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
   background: #11424f;
   border: 1px solid #0f3b47;
   -webkit-border-radius: 4px;
@@ -6850,6 +6848,9 @@ div.build {
 .navbar .nav .right-nav {
   float: right;
 }
+#iframe_portlet_container_div {
+  padding: 0px;
+}
 .portlet .chan-contain .body ul.chan {
   padding: 0px;
 }
@@ -7141,7 +7142,7 @@ td.infoline {
   padding-bottom: 2px;
   border-top: none;
   border-right: none;
-  border-bottom: 1px solid #d0d0d0;
+  border-bottom: none;
   text-align: right;
   font-weight: normal;
   color: #555555;
@@ -7152,7 +7153,7 @@ td.infoline {
   padding-right: 6px;
   text-align: left;
   border-top: none;
-  border-bottom: 1px solid #d0d0d0;
+  border-bottom: none;
   border-right: none;
   color: #999999;
 }
