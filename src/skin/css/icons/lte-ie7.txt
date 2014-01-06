@@ -1,5 +1,0 @@
-FILE DELETED
-
-Microsoft Forefront Protection for Exchange Server removed a file since it was found to match a filter.
-File name: "winmail.dat->files.zip->lte-ie7.js"
-Filter name: "FILE FILTER= IU File Filter List: *.js"
