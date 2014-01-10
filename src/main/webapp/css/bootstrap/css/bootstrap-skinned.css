@@ -6804,7 +6804,6 @@ div.build {
 body {
   font-size: 71%;
   margin: 0;
-  background-color: #a02919;
 }
 form {
   margin: 0;
@@ -7071,7 +7070,6 @@ h2 {
   height: 27px;
 }
 #footer-copyright {
-  background-color: #a02919;
   color: #fff;
   bottom: 0px;
   width: 100%;
@@ -7942,7 +7940,6 @@ td.infoline {
 }
 #workarea .tab-container table {
   width: 100%;
-  float: left;
   margin-bottom: 20px;
 }
 #workarea .tab-container table td,
