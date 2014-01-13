@@ -7983,6 +7983,10 @@ td.infoline {
   display: inline;
   margin-right: 12px;
 }
+.elementtable td,
+th {
+  text-align: left;
+}
 #addPersonDiv {
   min-height: 20px;
   padding: 19px;
