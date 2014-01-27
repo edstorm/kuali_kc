@@ -38,7 +38,7 @@
     </SCRIPT>
     <link type="text/css" rel="stylesheet" href="krad/plugins/fancybox/jquery.fancybox-1.3.4.css"></link>
     <script type="text/javascript" src="${pageContext.request.contextPath}/dwr/interface/DocumentTypeService.js"></script>
-    <script type="text/javascript" src="scripts/jquery/jquery-ui-1.10.4.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery/jquery-ui-1.8.16.custom.min.js"></script>
     <script type="text/javascript" src="krad/plugins/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     
     
