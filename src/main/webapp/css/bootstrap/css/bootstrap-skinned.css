@@ -6734,7 +6734,6 @@ h1 a[target=helpWindow]:before {
 }
 table#login {
   width: 300px;
-  height: 340px;
   background: #ffffff;
   margin: 130px auto;
   position: relative;
@@ -6748,7 +6747,7 @@ table#login td#buttonRow {
   text-align: center;
 }
 table#login td#buttonRow input.btn.btn-primary.login-button {
-  margin-left: -81px;
+  margin-left: -65px;
 }
 table#login td {
   padding: .2em;
@@ -6809,6 +6808,10 @@ body > #header {
 }
 #build {
   display: none;
+}
+.navbar .brand {
+  pointer-events: none;
+  cursor: default;
 }
 body {
   margin: 0;
@@ -7673,48 +7676,6 @@ span.subhead-left {
 #workarea .tab tr {
   border-bottom: 1px solid #333;
 }
-#tabs .licurrent input,
-#tabs .licurrent input:hover,
-#tabs .licurrent input:focus {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-color: #FFFFFF;
-  border-color: #DDDDDD #DDDDDD transparent;
-  border-image: none;
-  border-style: solid;
-  border-width: 1px;
-  color: #555555;
-  cursor: default;
-}
-#tabs dt input {
-  border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
-  line-height: 20px;
-  padding-bottom: 8px;
-  padding-top: 8px;
-  margin-right: 2px;
-  padding-left: 12px;
-  padding-right: 12px;
-  color: #0088CC;
-}
-#tabs dt input:hover,
-#tabs dt input:focus {
-  border-color: #EEEEEE #EEEEEE #DDDDDD;
-  background: none;
-  background-color: #EEEEEE;
-  color: #0088CC;
-  font-weight: normal;
-}
-#tabs input {
-  height: 36px;
-  font-weight: normal;
-}
-#tabs {
-  border-bottom: 1px solid #DDDDDD;
-  height: 35px;
-}
 #workarea div.tab-container-error {
   background: none;
   border: none;
@@ -7756,13 +7717,13 @@ td.infoline {
 }
 #headerarea-small h1,
 #headerarea h1 {
-  font-size: 30px ;
+  font-size: 30px;
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
 }
 .headerarea,
 .headerarea-small {
-  background-color: #eaf7fb;
+  background-color: #ffffff;
   padding: 0px 0px 0px 10px;
   background-image: none;
   margin: 0px;
@@ -7809,6 +7770,65 @@ td.infoline {
   background: #efefef;
   padding-top: 0px;
 }
+.horz-links-bkgrnd #tabs {
+  border-bottom: 1px solid #DDDDDD;
+  height: 30px;
+  background: #ffffff;
+}
+.horz-links-bkgrnd #tabs dl {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  height: 20px;
+  white-space: nowrap;
+}
+.horz-links-bkgrnd #tabs dt {
+  margin: 0px;
+  padding: 0px;
+}
+.horz-links-bkgrnd #tabs input {
+  border: 1px solid #d0d0d0;
+  border-bottom-color: #dddddd;
+  border-radius: 4px 4px 0 0;
+  line-height: 20px;
+  padding-bottom: 4px;
+  padding-top: 0px;
+  margin-right: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: #0088CC;
+  font-size: 12px;
+  background: #f5f5f5;
+  font-weight: bold;
+  margin-right: 2px;
+  height: 30px;
+}
+.horz-links-bkgrnd #tabs .licurrent input,
+#tabs .licurrent input:hover,
+#tabs .licurrent input:focus {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #FFFFFF;
+  border-color: #DDDDDD #DDDDDD transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: #555555;
+  cursor: default;
+}
+.horz-links-bkgrnd #tabs dt input[disabled] {
+  color: #999999;
+}
+.horz-links-bkgrnd #tabs dt input:hover,
+#tabs dt input:focus {
+  border-color: #EEEEEE #EEEEEE #DDDDDD;
+  background: none;
+  background-color: #EEEEEE;
+  color: #0088CC;
+  font-weight: normal;
+}
 .horz-links-bkgrnd #tabs .licurrent input,
 #tabs .licurrent input:hover,
 #tabs .licurrent input:focus {
@@ -7825,21 +7845,6 @@ td.infoline {
   cursor: default;
   letter-spacing: 0px;
 }
-.horz-links-bkgrnd #tabs dt input {
-  border: 1px solid #d0d0d0;
-  border-bottom-color: #dddddd;
-  border-radius: 4px 4px 0 0;
-  line-height: 20px;
-  padding-bottom: 4px;
-  padding-top: 0px;
-  margin-right: 4px;
-  padding-left: 6px;
-  padding-right: 6px;
-  color: #0088CC;
-  font-size: 12px;
-  background: #f5f5f5;
-  font-weight: bold;
-}
 .horz-links-bkgrnd #tabs dt input:hover,
 #tabs dt input:focus {
   border-color: #ddd #ddd transparent;
@@ -7848,31 +7853,8 @@ td.infoline {
   color: #0088CC;
   font-weight: bold;
 }
-.horz-links-bkgrnd #tabs input {
-  height: 31px;
-  font-weight: normal;
-}
-.horz-links-bkgrnd #tabs {
-  border-bottom: 1px solid #DDDDDD;
-  height: 30px;
-  background-color: #eaf7fb;
-}
 .horz-links-bkgrnd #tabs .tabul {
   padding-left: 8px;
-}
-.horz-links-bkgrnd #tabs dl {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-  height: 20px;
-  white-space: nowrap;
-}
-.horz-links-bkgrnd #tabs dt {
-  margin: 0px;
-  padding: 0px;
-}
-.horz-links-bkgrnd #tabs dt input {
-  margin-right: 2px;
 }
 .excol {
   color: #999999;
